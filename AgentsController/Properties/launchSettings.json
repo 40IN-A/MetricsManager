@@ -4,20 +4,20 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:51684"
-      //"sslPort": 44326
+      "applicationUrl": "http://localhost:25291"
+      //"sslPort": 44337
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/metrics",
+      "launchUrl": "api/metrics/agent",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
-    //"MetricsManager": {
+    //"AgentsController": {
     //  "commandName": "Project",
     //  "launchBrowser": true,
     //  "launchUrl": "weatherforecast",
